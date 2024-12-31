@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.HowToHandleAutoCompleteTextBox">
+      <class name="selenium.EnterValuesWithoutUsingSendkeys">
         <methods>
           <include name="launchApplication"/>
-          <include name="handlingAutoCompleteTextBox"/>
+          <include name="withUsingJSExecutor"/>
         </methods>
-      </class> <!-- selenium.HowToHandleAutoCompleteTextBox -->
+      </class> <!-- selenium.EnterValuesWithoutUsingSendkeys -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
