@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.EnterValuesWithoutUsingSendkeys">
+      <class name="herokuPractice.FileDownload">
         <methods>
-          <include name="launchApplication"/>
-          <include name="withUsingJSExecutor"/>
+          <include name="verifyFileDownload"/>
         </methods>
-      </class> <!-- selenium.EnterValuesWithoutUsingSendkeys -->
+      </class> <!-- herokuPractice.FileDownload -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

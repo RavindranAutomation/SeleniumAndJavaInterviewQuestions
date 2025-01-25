@@ -1,22 +1,20 @@
 package javaInterviewPrograms;
 
+import java.util.Arrays;
+
 public class FindLargestNumberFromArray {
 
 	public static void main(String[] args) {
-		int [] givenArray= {10,20,30,40,50,60,70,80,1,2,3,4,5,7};
+		int [] givenArray= {8,2,3,1,5,79};
 
-		int largest=Integer.MAX_VALUE;
+		int large = givenArray[0];
 
-		for (int i = 0; i < givenArray.length; i++) {
-
-			if (givenArray[i]>largest) {
-
-				largest=givenArray[i];
+		for(int i=0;i<givenArray.length;i++) {
+			if(givenArray[i]>large) {
+				large=givenArray[i];
 			}
-
 		}
-		System.out.println("Smallest number  is : " + largest);
-
+		System.out.println(large);
 	}
 
 }
