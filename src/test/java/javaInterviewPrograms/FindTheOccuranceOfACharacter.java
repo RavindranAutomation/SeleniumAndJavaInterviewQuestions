@@ -3,7 +3,7 @@ package javaInterviewPrograms;
 public class FindTheOccuranceOfACharacter {
 
 	public static void main(String[] args) {
-		String given = "KAKAKAKAKAKAKAEEEEEEEE";
+		String given = "elephant";
 		String input = given.toLowerCase();
 		char chartoFind='e';
 		int occurance=0;

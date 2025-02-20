@@ -11,7 +11,7 @@ public class ExtractNumberFromStringAndAdd {
 
 	public static void main(String[] args) {
 
-		String given = "India12345";
+		String given = "Magesh1999";
 		char[] charArray = given.toCharArray();
 		int total = 0;
 

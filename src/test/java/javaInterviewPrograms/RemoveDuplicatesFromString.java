@@ -5,17 +5,19 @@ import java.util.LinkedHashSet;
 public class RemoveDuplicatesFromString {
 
 	public static void main(String[] args) {
-		String given = "ele";
+		String [] given = {"Magesh","Ravi","Magesh"};
+		
+		
 
-		LinkedHashSet<Character> set = new LinkedHashSet<Character>();
+		LinkedHashSet<String> set = new LinkedHashSet<String>();
 
-		for (int i = 0; i < given.length(); i++) {
+		for (int i = 0; i < given.length; i++) {
 
-			set.add(given.charAt(i));
+			set.add(given[i]);
 		}
 
-		for (Character c : set) {
-			System.out.print(c);
+		for (String c : set) {
+			System.out.print(c + ",");
 		}
 
 	}

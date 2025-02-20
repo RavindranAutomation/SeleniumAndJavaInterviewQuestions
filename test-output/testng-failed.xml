@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="herokuPractice.FileDownload">
+      <class name="testLeafPractice.TextBoxes">
         <methods>
-          <include name="verifyFileDownload"/>
+          <include name="handlingTextBoxes"/>
+          <include name="quitBrowser"/>
         </methods>
-      </class> <!-- herokuPractice.FileDownload -->
+      </class> <!-- testLeafPractice.TextBoxes -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
