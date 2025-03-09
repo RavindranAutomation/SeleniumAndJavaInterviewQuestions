@@ -22,28 +22,31 @@ public class HowToVerifyFileDownload {
 
 	WebDriver driver;
 
-	@BeforeMethod
-	public void launchApplication() {
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("https://www.tutorialspoint.com/selenium/practice/upload-download.php");
-
-	}
+//	@BeforeMethod
+//	public void launchApplication() {
+//		driver = new ChromeDriver();
+//		driver.manage().window().maximize();
+//		driver.get("https://www.tutorialspoint.com/selenium/practice/upload-download.php");
+//
+//	}
 
 	@Test
 	public void verifyFileDownload() throws InterruptedException {
-		driver.findElement(By.cssSelector("a#downloadButton")).click();
-		Thread.sleep(4000);
+//		driver.findElement(By.cssSelector("a#downloadButton")).click();
+//		Thread.sleep(4000);
 
 		File fileLocation = new File("C:\\Users\\Ravin\\Downloads");
 
 		File[] filesList = fileLocation.listFiles();
 
 		for (File file : filesList) {
-			if (file.getName().equals("sampleFile.jpeg")) {
+			if (file.getName().equals("sampleFile98924548.jpeg")) {
 				System.out.println("File is downloaded");
 				break;
 
+			}else {
+				System.out.println("File is NOT PRESENT");
+				break;
 			}
 		}
 

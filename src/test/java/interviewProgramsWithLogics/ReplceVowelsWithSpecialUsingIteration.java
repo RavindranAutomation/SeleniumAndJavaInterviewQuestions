@@ -5,7 +5,7 @@ public class ReplceVowelsWithSpecialUsingIteration {
 		String given = "Ravindran";
 
 		String lowerCase = given.toLowerCase();
-		char specialCharacter = '*';
+		char specialCharacter = '#';
 
 		char[] charArray = lowerCase.toCharArray();
 

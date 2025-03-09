@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testLeafPractice.TextBoxes">
+      <class name="letcodePractice.BrokenImages">
         <methods>
-          <include name="handlingTextBoxes"/>
-          <include name="quitBrowser"/>
+          <include name="verifyBrokenImages"/>
         </methods>
-      </class> <!-- testLeafPractice.TextBoxes -->
+      </class> <!-- letcodePractice.BrokenImages -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

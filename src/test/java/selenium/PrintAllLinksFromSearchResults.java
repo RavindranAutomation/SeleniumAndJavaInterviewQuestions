@@ -34,8 +34,5 @@ public class PrintAllLinksFromSearchResults {
 		}
 
 	}
-	@Test
-	public void getSubAllSubLinks() {
-		
-	}
+	
 }

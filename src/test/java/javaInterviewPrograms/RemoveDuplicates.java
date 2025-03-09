@@ -1,20 +1,21 @@
 package javaInterviewPrograms;
 
-import java.util.ArrayList;
+import java.util.LinkedHashSet;
 
 public class RemoveDuplicates {
 
 	public static void main(String[] args) {
-		int [] given = {1,2,3,4};
+		int [] given = {1,1,2,2,3,3,4,4,5,5};
 		
 		
-		ArrayList<Integer> set = new ArrayList<Integer>();
+		LinkedHashSet<Integer> set = new LinkedHashSet<Integer>();
 		
-		for(int i=0;i<given.length;i++) {
-			set.add(given[i]);
+		for(int intvalue : given) {
+			set.add(intvalue);
 		}
 		
-		System.out.println(set.reversed());
+		System.out.println(set.toString());
+		
 
 	}
 

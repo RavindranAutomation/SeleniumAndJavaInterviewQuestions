@@ -25,7 +25,7 @@ public class PrintTheGoogleSearchSuggestions {
 	}
 	@Test
 	private void getGoogleSuggestion() {
-		driver.findElement(By.id("APjFqb")).sendKeys("Java");
+		driver.findElement(By.id("APjFqb")).sendKeys("Amazon");
 
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//ul[@role='listbox']/li")));

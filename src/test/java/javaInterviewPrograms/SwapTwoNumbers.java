@@ -29,6 +29,9 @@ public class SwapTwoNumbers {
 		b=a+b;
 		a=b-a;
 		
+		
+		
+		
 		System.out.println("After swapping a = " + a);
 		System.out.println("After swapping b = " + b);
 				
